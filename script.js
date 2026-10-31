@@ -11,3 +11,17 @@ if (true) {
 
 console.log(unutarBloka); // ReferenceError
 console.log(staraVarijabla); // Radi (zbog var)
+
+// 2 slajd
+
+let str = "Tekst";           // String
+let num = 105.45;          // Number
+let bool = true;           // Boolean
+let bigInt = 9007199254740991n;
+let prazno = null;         // Namjerno prazno
+let nepoznato;             // Undefined
+
+// Složeni (Referentni) tipovi
+let niz = [1, 2, 3];        // niz
+let obj = { grad: "Zagreb" };// objekt
+        
