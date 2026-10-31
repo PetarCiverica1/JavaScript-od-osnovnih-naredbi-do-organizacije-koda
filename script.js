@@ -24,4 +24,21 @@ let nepoznato;             // Undefined
 // Složeni (Referentni) tipovi
 let niz = [1, 2, 3];        // niz
 let obj = { grad: "Zagreb" };// objekt
-        
+
+console.log(niz);
+console.log(obj);
+
+
+// 3 slajd     
+
+let x = 10;
+x += 5;              // x = 15
+let parnost = x % 2; // 1 (neparan broj)
+
+// Razlika prefiks / postfiks
+let a = 5;
+let b = a++; // b = 5, a postaje 6
+let c = ++a; // c = 7, a postaje 7
+
+// Spajanje teksta
+let poruka = "Rezultat: " + (a + b);
