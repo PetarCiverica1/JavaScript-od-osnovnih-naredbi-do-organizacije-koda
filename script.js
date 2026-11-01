@@ -42,3 +42,4 @@ let c = ++a; // c = 7, a postaje 7
 
 // Spajanje teksta
 let poruka = "Rezultat: " + (a + b);
+
