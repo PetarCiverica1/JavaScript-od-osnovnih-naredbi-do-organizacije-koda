@@ -87,3 +87,30 @@ switch (uloga) {
   for (let i = 0; i < 3; i++) {
   console.log("brojac:", i);
 }
+
+let n = 0;
+while (n < 3) {
+  n++;
+}
+    
+const voće = ["jabuka", "banana"];
+for (const item of voće) {
+  console.log(item);
+}
+
+// slajd 7
+function zbroji(a, b) {
+    return a + b;
+}
+
+let rezultat = zbroji(5, 3);
+
+console.log(rezultat); 
+
+
+function pozdrav(ime) {
+    console.log("Bok " + ime);
+}
+
+pozdrav("Petar");
+pozdrav("Marko");
