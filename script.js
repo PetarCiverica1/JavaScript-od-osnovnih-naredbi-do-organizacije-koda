@@ -68,8 +68,8 @@ if (bodovi >= 90) {
 } else {
   console.log("Ocjena: Prolaz");
 }
-  
- 
+
+
 let uloga = "admin";
 
 switch (uloga) {
@@ -84,7 +84,7 @@ switch (uloga) {
 }
 // 6 slajd
 
-  for (let i = 0; i < 3; i++) {
+for (let i = 0; i < 3; i++) {
   console.log("brojac:", i);
 }
 
@@ -92,7 +92,7 @@ let n = 0;
 while (n < 3) {
   n++;
 }
-    
+
 const voće = ["jabuka", "banana"];
 for (const item of voće) {
   console.log(item);
@@ -100,16 +100,16 @@ for (const item of voće) {
 
 // slajd 7
 function zbroji(a, b) {
-    return a + b;
+  return a + b;
 }
 
 let rezultat = zbroji(5, 3);
 
-console.log(rezultat); 
+console.log(rezultat);
 
 
 function pozdrav(ime) {
-    console.log("Bok " + ime);
+  console.log("Bok " + ime);
 }
 
 pozdrav("Petar");
@@ -121,7 +121,7 @@ class Osoba {
   constructor(ime) {
     this.ime = ime;
   }
-  
+
   predstaviSe() {
     console.log(`Ja sam ${this.ime}`);
   }
@@ -129,4 +129,12 @@ class Osoba {
 
 const ivan = new Osoba("Ivan");
 ivan.predstaviSe();
-        
+
+// slajd 9
+try {
+    let rezultat = 10 / 0;
+    console.log(rezultat);
+}
+catch (error) {
+    console.log("Dogodila se pogreška!");
+}
