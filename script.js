@@ -114,3 +114,19 @@ function pozdrav(ime) {
 
 pozdrav("Petar");
 pozdrav("Marko");
+
+//slajd 8
+
+class Osoba {
+  constructor(ime) {
+    this.ime = ime;
+  }
+  
+  predstaviSe() {
+    console.log(`Ja sam ${this.ime}`);
+  }
+}
+
+const ivan = new Osoba("Ivan");
+ivan.predstaviSe();
+        
