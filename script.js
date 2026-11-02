@@ -36,10 +36,54 @@ x += 5;              // x = 15
 let parnost = x % 2; // 1 (neparan broj)
 
 // Razlika prefiks / postfiks
-let a = 5;
-let b = a++; // b = 5, a postaje 6
-let c = ++a; // c = 7, a postaje 7
+let e = 5;
+let f = a++; // b = 5, a postaje 6
+let g = ++a; // c = 7, a postaje 7
 
 // Spajanje teksta
 let poruka = "Rezultat: " + (a + b);
 
+// slajd 4
+
+console.log(5 == "5");  // true 
+console.log(5 === "5"); // false 
+
+let dob = 20;
+let dozvola = true;
+
+let mozeVoziti = (dob >= 18) && dozvola; // AND
+let popust = (dob < 18) || (dob > 65);   // OR
+
+let aktivan = true;
+console.log(!aktivan); // false
+
+// slajd 5
+
+let bodovi = 85;
+
+if (bodovi >= 90) {
+  console.log("Ocjena: Izvrstan (5)");
+} else if (bodovi >= 80) {
+  console.log("Ocjena: Vrlo dobar (4)");
+} else {
+  console.log("Ocjena: Prolaz");
+}
+  
+ 
+let uloga = "admin";
+
+switch (uloga) {
+  case "admin":
+    console.log("Puni pristup system-u");
+    break;
+  case "urednik":
+    console.log("Pristup sadržaju");
+    break;
+  default:
+    console.log("Ograničen pristup");
+}
+// 6 slajd
+
+  for (let i = 0; i < 3; i++) {
+  console.log("brojac:", i);
+}
